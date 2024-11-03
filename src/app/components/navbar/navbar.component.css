@@ -1,0 +1,26 @@
+/* .bg-color{
+    background-color: #1c4587;
+} */
+
+.nav {
+    background-color: #1c4587;
+}
+
+.btn-responsive {
+    background-color: #ffff;
+}
+
+
+ul li a {
+    color: #ffff
+}
+
+.logo-nav {
+    width: 3em;
+}
+
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: none;
+}

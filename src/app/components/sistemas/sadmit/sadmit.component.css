@@ -1,0 +1,54 @@
+.description-aboutme {
+    font-size: 14px;
+  }
+  
+  @media (min-width: 992px) {
+    .rounded-lg-3 { border-radius: .3rem; }
+  }
+  
+  
+  .hero-section {
+    /* background-color: #f8f9fa; */
+    padding: 5rem 0;
+  }
+  
+  .hero-title {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+  }
+  
+  .hero-description {
+    font-size: 14px;
+    margin-bottom: 2rem;
+  }
+  
+  .hero-image {
+  width: 20rem;
+  }
+  
+  @media (max-width: 767.98px) {
+    .hero-title {
+        font-size: 2.5rem;
+    }
+  
+    .hero-description {
+        font-size: 1rem;
+    }
+  
+    .hero-image {
+        margin: 2rem auto 0;
+    }
+  }
+  
+  .accordion-flush>.accordion-item>.accordion-header .accordion-button, .accordion-flush>.accordion-item>.accordion-header .accordion-button.collapsed  {
+    border: 1px solid #1c4587;
+    background-color: #1c4587;
+    color: #ffff;
+  }
+  
+  .accordion-button::after {
+    color: #ffffff; /* Cambia el color del ícono a blanco */
+    filter: brightness(90); /* Asegúrate de que el ícono se vea blanco */
+  }
+  

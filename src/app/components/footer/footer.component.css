@@ -1,0 +1,16 @@
+
+
+footer {
+    background-color: #1c4587;
+    color: white;
+    text-align: center;
+    line-height: 50px; /* Alinea el texto verticalmente */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+
+footer ul li a{
+    color: #fff;
+}
