@@ -16,6 +16,7 @@ import { SadmimComponent } from './components/sistemas/sadmim/sadmim.component';
 import { SadmipComponent } from './components/sistemas/sadmip/sadmip.component';
 import { SadmitComponent } from './components/sistemas/sadmit/sadmit.component';
 import { ServiDescComponent } from './components/servicios/servi-desc/servi-desc.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { ServiDescComponent } from './components/servicios/servi-desc/servi-desc
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

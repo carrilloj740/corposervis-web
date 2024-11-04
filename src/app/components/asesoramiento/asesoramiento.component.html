@@ -1,6 +1,8 @@
 <div class="px-4 py-5 my-5 text-center asesoramineto-color">
-    <h1 class="display-6 fw-bold">Asesoramiento informático</h1>
-    <div class="col-lg-6 mx-auto">
-        <p class="lead mb-4">Te asesoramos para que tu empresa tenga el mejor desarrollo posible</p>
+    <div *ngIf="titleAsesoramiento">
+        <h1 class="display-6 fw-bold">{{titleAsesoramiento}} </h1>
+    </div>
+    <div class="col-lg-6 mx-auto" *ngIf="descriptionAsesoramiento">
+        <p class="lead mb-4">{{descriptionAsesoramiento}}</p>
     </div>
 </div>

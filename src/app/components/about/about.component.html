@@ -3,13 +3,9 @@
     <div class="row align-items-center">
       <div class="col-md-6">
         <h1 class="hero-title">Corposervis C.A</h1>
-        <p class="hero-description lead description-font">Corporación de Servicios y Sistemas (CORPOSERVIS, C.A.) es una
-          Empresa de Consultoría orientada principalmente a las PYMES y Organismos del Sector Público, integrada por un
-          grupo de profesionales con más de 20 años de experiencia en el área de desarrollo de software y sistemas
-          operativos. Corposervis brinda un servicio de Asesoramiento Profesional Independiente, con el propósito de
-          ayudar, a los Gerentes, Empresas y Organismos en los objetivos y propósitos que tienen como organización
-          mediante el aporte de soluciones a problemas y la evaluación de nuevas oportunidades. Nuestro principal
-          objetivo es crear con nuestros Clientes una alianza ganadora.</p>
+        <div *ngIf="about">
+          <p class="hero-description lead description-font">{{about}}</p>
+        </div>
         <!-- <a href="#" class="btn btn-primary btn-lg">Get Started</a> -->
       </div>
       <div class="col-md-6 text-center">
