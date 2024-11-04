@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import { ApiService } from 'src/app/services/api.service';
-import { ContenfulService } from 'src/app/services/contenful.service';
 
 @Component({
   selector: 'app-asesoramiento',
@@ -13,7 +12,6 @@ export class AsesoramientoComponent {
 
   constructor(
     private apiService: ApiService,
-    private contenfulService: ContenfulService
   ) {}
 
 

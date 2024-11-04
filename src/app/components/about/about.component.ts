@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import { ApiService } from 'src/app/services/api.service';
-import { ContenfulService } from 'src/app/services/contenful.service';
 
 @Component({
   selector: 'app-about',
@@ -12,7 +11,6 @@ export class AboutComponent {
 
   constructor(
     private apiService: ApiService,
-    private contenfulService: ContenfulService
   ) {}
 
   ngOnInit() {

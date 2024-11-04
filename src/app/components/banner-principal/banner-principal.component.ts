@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import { ApiService } from 'src/app/services/api.service';
-import { ContenfulService } from 'src/app/services/contenful.service';
 
 @Component({
   selector: 'app-banner-principal',
@@ -14,7 +13,6 @@ export class BannerPrincipalComponent {
 
   constructor(
     private apiService: ApiService,
-    private contenfulService: ContenfulService
   ) {}
 
   ngOnInit() {
