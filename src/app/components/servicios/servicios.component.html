@@ -31,14 +31,14 @@
 
     <div class="row featurette">
       <div class="col-md-7 order-md-2">
-      <div *ngIf="tituloServicioDos">
-        <h2 class="featurette-heading fw-bold lh-1">{{tituloServicioDos}}</h2>
+        <div *ngIf="tituloServicioDos">
+          <h2 class="featurette-heading fw-bold lh-1">{{tituloServicioDos}}</h2>
+        </div>
+        <div *ngIf="descripcionSegundoServicio ">
+          <p class="lead">{{descripcionSegundoServicio}} </p>
+        </div>
       </div>
-      <div *ngIf="descripcionSegundoServicio ">
-        <p class="lead">{{descripcionSegundoServicio}} </p>
-      </div>
-      </div>
-      <div class="col-md-5 order-md-1">
+      <div class="col-md-5 order-md-1 ">
         <img height="400" width="350" src="../../../assets/web-design-internet-website-responsive-software-concept.jpg"
           alt="">
 
@@ -48,7 +48,7 @@
     <hr class="featurette-divider">
 
     <div class="row featurette">
-      <div class="col-md-7">
+      <div class="col-md-7 ">
         <div *ngIf="tituloServicioTres">
           <h2 class="featurette-heading fw-bold lh-1">{{tituloServicioTres}}</h2>
         </div>
