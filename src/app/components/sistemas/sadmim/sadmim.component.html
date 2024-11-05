@@ -1,17 +1,19 @@
 <app-navbar></app-navbar>
 
 <div class="position-relative overflow-hidden p-3 p-md-5  text-center bg-body-tertiary mt-5">
-    <div class="col-md-6 p-lg-5 mx-auto my-5">
-        <h1 class="display-5 fw-bold">Nuestros sistemas
-        </h1>
-        <span class="fw-normal text-muted mb-3">Contamos con Sistemas para instituciones de la Administración Pública desarrollado bajo plataformas de software libre. Cumpliendo con las normas establecidas por las leyes, ordenanzas y reglamentos. Adaptables y configúrales
-        </span>
-        <div class="d-flex gap-3 justify-content-center lead fw-normal">
+  <div class="col-md-6 p-lg-5 mx-auto my-5">
+    <h1 class="display-5 fw-bold">Nuestros sistemas
+    </h1>
+    <span class="fw-normal text-muted mb-3">Contamos con Sistemas para instituciones de la Administración Pública
+      desarrollado bajo plataformas de software libre. Cumpliendo con las normas establecidas por las leyes, ordenanzas
+      y reglamentos. Adaptables y configúrales
+    </span>
+    <div class="d-flex gap-3 justify-content-center lead fw-normal">
 
-        </div>
     </div>
-    <div class="product-device shadow-sm d-none d-md-block"></div>
-    <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+  </div>
+  <div class="product-device shadow-sm d-none d-md-block"></div>
+  <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
 </div>
 
 <app-sistemas></app-sistemas>
@@ -20,52 +22,73 @@
 <hr class="featurette-divider">
 
 <div class="container col-xl-10 col-xxl-8 px-4 py-5">
-    <div class="row align-items-center g-lg-5 py-5">
-        <div class="col-lg-7 text-center text-lg-start">
-          <div *ngIf="tituloSadmim">
-            <h1 class="display-4 fw-bold lh-1 text-body-emphasis mb-3">
-              {{tituloSadmim}}
-            </h1>
+  <div class="row align-items-center g-lg-5 py-5">
+    <div class="col-lg-7 text-center text-lg-start">
+      <div *ngIf="tituloSadmim">
+        <h1 class="display-4 fw-bold lh-1 text-body-emphasis mb-3">
+          {{tituloSadmim}}
+        </h1>
 
-          </div>
-         
-          <div *ngIf="descSadmim">
-            <p class="col-lg-10 fs-4">{{descSadmim}} </p>
-          </div>
-        </div>
+      </div>
 
-        <div class="col-md-10 mx-auto col-lg-5 text-center">
-            <img src="../../../../assets/sadmim.png" alt="">
-        </div>
+      <div *ngIf="descSadmim">
+        <p class="col-lg-10 fs-4">{{descSadmim}} </p>
+      </div>
     </div>
+
+    <div class="col-md-10 mx-auto col-lg-5 text-center">
+      <img src="../../../../assets/sadmim.png" alt="">
+    </div>
+  </div>
 </div>
 
 
 <div class="container col-xl-10 col-xxl-8 px-4 py-5">
-    <div class="accordion accordion-flush" id="accordionFlushExample">
-        <div class="accordion-item">
-          <h2 class="accordion-header">
-            <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-              Leer más acerca de SADMIM
-            </button>
-          </h2>
-          <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-            <div class="accordion-body">El Sistema Integrado de Control Administrativo (SADMIM), ha sido desarrollado por profesionales con alta capacidad y amplia experiencia en la Administración Pública, que han aunado esfuerzos para la concepción de este importante sistema. En él hemos incorporado las normativas y controles exigidos por las diferentes leyes y entes gubernamentales que rigen y supervisan la buena labor de los Organismos Públicos. SADMIM, brinda un eficaz control y una amplia seguridad a todos los niveles de la administración, dotando a los usuarios de los niveles más operativos de una herramienta versátil para su operación y dotando a la Gerencia Administrativa de una amplia, oportuna y veraz información para la toma de decisiones. SADMIM, ha sido concebido bajo un esquema modular, donde cada uno de los nodos o Sub-Sistemas que lo conforman representan una gama de las actividades administrativas que las unidades de trabajo de los organismos deben realizar. Aun cuando su operatividad sea independiente, se mantienen interrelacionadas, permitiendo incorporar nuevas aplicaciones en la medida en que sea necesario. Integración Administrativa: constituye uno de los principales beneficios que otorga el Sistema SADMIM, la información generada por cualquiera de las unidades administrativas es compartida automáticamente con el resto de los módulos que constituyen el sistema, garantizando la homogeneidad y precisión en la información. SADMIM, es un sistema multiplataforma bajo Software Libre el cual puede operar con Servidores bajo plataforma Unix, Linux, Windows NT, Windows 98, Windows 95, Windows ME, Windows XP. Está desarrollado bajo un entorno RAD en el cual los usuarios pueden aprovechar las ventajas de un modelo centrado en la base de datos que crea separado HTML y código de. Servidor. La Base de Datos se encuentra en MySql Server y el código de servidor bajo PHP. Los profesionales de nuestra empresa garantizan la migración de la data de su sistema actual, lo cual permitirá a la administración municipal continuar de forma transparente sus procesos administrativos. Siempre y cuando la data cumpla con los requerimientos básicos de bases de datos.</div>
-            <p class="col-lg-10 fs-4">Administración y Finanzas</p>
+  <div class="accordion accordion-flush" id="accordionFlushExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
+          data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+          Leer más acerca de SADMIM
+        </button>
+      </h2>
+      <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">El Sistema Integrado de Control Administrativo (SADMIM), ha sido desarrollado por
+          profesionales con alta capacidad y amplia experiencia en la Administración Pública, que han aunado esfuerzos
+          para la concepción de este importante sistema. En él hemos incorporado las normativas y controles exigidos por
+          las diferentes leyes y entes gubernamentales que rigen y supervisan la buena labor de los Organismos Públicos.
+          SADMIM, brinda un eficaz control y una amplia seguridad a todos los niveles de la administración, dotando a
+          los usuarios de los niveles más operativos de una herramienta versátil para su operación y dotando a la
+          Gerencia Administrativa de una amplia, oportuna y veraz información para la toma de decisiones. SADMIM, ha
+          sido concebido bajo un esquema modular, donde cada uno de los nodos o Sub-Sistemas que lo conforman
+          representan una gama de las actividades administrativas que las unidades de trabajo de los organismos deben
+          realizar. Aun cuando su operatividad sea independiente, se mantienen interrelacionadas, permitiendo incorporar
+          nuevas aplicaciones en la medida en que sea necesario. Integración Administrativa: constituye uno de los
+          principales beneficios que otorga el Sistema SADMIM, la información generada por cualquiera de las unidades
+          administrativas es compartida automáticamente con el resto de los módulos que constituyen el sistema,
+          garantizando la homogeneidad y precisión en la información. SADMIM, es un sistema multiplataforma bajo
+          Software Libre el cual puede operar con Servidores bajo plataforma Unix, Linux, Windows NT, Windows 98,
+          Windows 95, Windows ME, Windows XP. Está desarrollado bajo un entorno RAD en el cual los usuarios pueden
+          aprovechar las ventajas de un modelo centrado en la base de datos que crea separado HTML y código de.
+          Servidor. La Base de Datos se encuentra en MySql Server y el código de servidor bajo PHP. Los profesionales de
+          nuestra empresa garantizan la migración de la data de su sistema actual, lo cual permitirá a la administración
+          municipal continuar de forma transparente sus procesos administrativos. Siempre y cuando la data cumpla con
+          los requerimientos básicos de bases de datos.</div>
+        <p class="col-lg-10 fs-4">Administración y Finanzas</p>
 
-                    <ul>
-                        <li>Formulación Presupuestaria</li>
-                        <li>Ejecución Presupuestaria de Gastos</li>
-                        <li>Contabilidad Fiscal</li>
-                        <li>Tesorería y Bancos</li>
-                        <li>Compras y Suministros</li>
-                        <li>Administración, Configuración y Copntrol de Acceso</li>
-                    </ul>
-          </div>
-        </div>
-       
-      
+        <ul>
+          <li>Formulación Presupuestaria</li>
+          <li>Ejecución Presupuestaria de Gastos</li>
+          <li>Contabilidad Fiscal</li>
+          <li>Tesorería y Bancos</li>
+          <li>Compras y Suministros</li>
+          <li>Administración, Configuración y Copntrol de Acceso</li>
+        </ul>
       </div>
+    </div>
+
+
+  </div>
 </div>
 
 <app-footer></app-footer>

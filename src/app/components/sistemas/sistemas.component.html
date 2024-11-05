@@ -4,14 +4,15 @@
 <main>
 
     <div *ngIf="titleSistema">
-        <h2 class="pb-2 text-center mb-5 title-color title mt-5"> {{titleSistema}}</h2>
+        <h2 class="pb-2 text-center mb-5 title-color title mt-4"> {{titleSistema}}</h2>
     </div>
+
     <div class="container marketing">
 
         <!-- Three columns of text below the carousel -->
         <div class="row mb-5">
             <div class="col-lg-4">
-                <a href="/sadmim"> <img src="../../../assets/sadmim.png" width="140" height="140"
+                <a routerLink="/sadmim"> <img src="../../../assets/sadmim.png" width="140" height="140"
                         class="bd-placeholder-img rounded-circle" alt=""></a>
                 <div *ngIf="tituloSistemaUno">
                     <h2 class="fw-bold mt-3 ">{{tituloSistemaUno}}</h2>
@@ -21,7 +22,7 @@
                 </div>
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4 ">
-                <a href="/sadmip">
+                <a routerLink="/sadmip">
                     <img src="../../../assets/sadmip.png" width="140" height="140"
                         class="bd-placeholder-img rounded-circle" alt="">
                 </a>
@@ -34,14 +35,14 @@
             </div><!-- /.col-lg-4 -->
 
             <div class="col-lg-4 ">
-                <a href="/sadmit"><img src="../../../assets/sadmit.png" width="140" height="140"
+                <a routerLink="/sadmit"><img src="../../../assets/sadmit.png" width="140" height="140"
                         class="bd-placeholder-img rounded-circle" alt=""></a>
-                        <div *ngIf="tituloSistemaTres">
-                            <h2 class="fw-bold mt-3 ">{{tituloSistemaTres}}</h2>
-                        </div>
-                        <div *ngIf="descSistemaTres">
-                            <p>{{descSistemaTres}}</p>
-                        </div>
+                <div *ngIf="tituloSistemaTres">
+                    <h2 class="fw-bold mt-3 ">{{tituloSistemaTres}}</h2>
+                </div>
+                <div *ngIf="descSistemaTres">
+                    <p>{{descSistemaTres}}</p>
+                </div>
             </div><!-- /.col-lg-4 -->
         </div><!-- /.row -->
 
