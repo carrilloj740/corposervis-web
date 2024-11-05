@@ -1,4 +1,3 @@
-
 .centered-div {
     position: absolute;
     top: 50%;
@@ -7,14 +6,13 @@
     padding: 20px;
     text-align: center;
     border-radius: 10px;
-    font-size: 24px;
     color: #ffff;
 }
 
 .background-banner {
     background-attachment: fixed;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../../assets/startup-849805_1920.jpeg");
-    width: 100%;
+    width: 100wh;
     height: 100vh;
 
 }
@@ -25,6 +23,10 @@
         background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../../assets/startup-849805_1920.jpeg");
         width: 100%;
         height: 100vh;
+        background-size: cover;
     }
-    
-  }
+
+
+
+}
+

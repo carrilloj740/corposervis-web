@@ -7,15 +7,13 @@ import { ApiService } from 'src/app/services/api.service';
   styleUrls: ['./sistemas.component.css'],
 })
 export class SistemasComponent {
-  titleSistema: string = ''; // Título del contenido
-  tituloSistemaUno: string = ''; //Título del primer sistema
-  descSistemaUno: string = ''; // Descripcion primer sistema
-
-  tituloSistemaDos: string = ''; //Título del segundo sistema
-  descSistemaDos: string = ''; // Descripcion segundo sistema
-
-  tituloSistemaTres: string = ''; //Título del tercer sistema
-  descSistemaTres: string = ''; // Descripcion tercer sistema
+  titleSistema: string = '';
+  tituloSistemaUno: string = ''; 
+  descSistemaUno: string = ''; 
+  tituloSistemaDos: string = ''; 
+  descSistemaDos: string = '';
+  tituloSistemaTres: string = ''; 
+  descSistemaTres: string = ''; 
 
   constructor(
     private apiService: ApiService,
